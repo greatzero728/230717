@@ -1,0 +1,4 @@
+You are given a set S of integers, and initially, S contains 0, 1, and 2.
+You can perform zero or more steps. On each step, you choose two elements x and y such that x ∈ S and y ∈ S and insert the number x2 − y into the set S. (x can be equal to y.)
+You cannot perform more than 43 steps.
+Print any possible solution to get the integer n in set S.

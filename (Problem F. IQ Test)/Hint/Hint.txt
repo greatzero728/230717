@@ -1,0 +1,2 @@
+You can try the following algorithm, which performs in recursive no more than 43 moves:
+Let’s define f(n) as a function that would add element n to the S with possibly some intermediate additions. Let’s take x = sqrt(n) and y = x × x − n, run f(x), f(y), and finally perform the addition of x × x - y to the set S.
